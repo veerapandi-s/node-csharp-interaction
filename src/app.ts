@@ -18,7 +18,7 @@ subtractMethod(payLoad, function (error:any, result:any) {
   console.log(result);
 });
 
-var add = edge.func(require('path').join(__dirname, 'assets/add.csx'));
+var add = edge.func(require('path').join(__dirname, '../assets/add.csx'));
 
 add(payLoad, function (error:any, result:any) {
   if (error) throw error;
